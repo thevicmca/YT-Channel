@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 body{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	font-size: 15px;
+	font-size: 12px;
 	
 }
 ul {
@@ -69,8 +69,8 @@ body{
 }
 
 .container .card{
-    width: 330px;
-    height: 700px;
+    width: 250px;
+    height: 550px;
     background: #fff;
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 	border-radius: 10px;
@@ -78,6 +78,7 @@ body{
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+	display: inline;
 }
 
 .container .card:hover{
@@ -86,8 +87,8 @@ body{
 }
 
 .container .card img{
-    width: 330px;
-    height: 440px;
+    width: 250px;
+    height: 340px;
 }
 
 .container .card p{
